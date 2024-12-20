@@ -10,7 +10,7 @@ import WeatherService from '../../service/weatherService.js'
 router.post('/', async (req, res) => {
   const city = req.body.cityName
   // TODO: GET weather data from city name
-  const weather = new WeatherService(city)
+  const weather = WeatherService
   res.send(await weather.getWeatherForCity())
 
   // TODO: save city to search history

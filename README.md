@@ -18,7 +18,7 @@ Questions
 
 ## Installation
 
-If you'd like to install the repo itself to work on, download or git clone the folder. Having node.js installed will be necessary in this case.
+If you'd like to install the repo itself to work on, download or git clone. Having node.js installed will be necessary in this case.
 
 ## Usage
 
